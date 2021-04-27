@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Saaam\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Saaam\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_TFE_Khalifa_Sami_2021.-1877799610.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Saaam\AppData\Roaming\JetBrains\Rider2020.2\consoles\db" t="IncludeRecursive" />
+    <e p="C:\Users\Saaam\AppData\Roaming\JetBrains\Rider2020.2\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\Saaam\RiderProjects\TFE_Khalifa_Sami_2021" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="TFE_Khalifa_Sami_2021" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="DAL" t="Include">
+          <e p="AppDbContext.cs" t="Include" />
+        </e>
+        <e p="git" t="Include" />
+        <e p="GraphQL" t="Include">
+          <e p="Query.cs" t="Include" />
+        </e>
+        <e p="Migrations" t="Include">
+          <e p="20210427202202_initialMigration.cs" t="Include" />
+          <e p="20210427202202_initialMigration.Designer.cs" t="Include" />
+          <e p="20210427215026_AddPropertiesList.cs" t="Include" />
+          <e p="20210427215026_AddPropertiesList.Designer.cs" t="Include" />
+          <e p="AppDbContextModelSnapshot.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="Contract.cs" t="Include" />
+          <e p="Property.cs" t="Include" />
+          <e p="User.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="TFE_Khalifa_Sami_2021.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="TFE_Khalifa_Sami_2021.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="TFE_Khalifa_Sami_2021.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>

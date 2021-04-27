@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Saaam\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Saaam\\.nuget\\packages"
+    ]
+  }
+}
