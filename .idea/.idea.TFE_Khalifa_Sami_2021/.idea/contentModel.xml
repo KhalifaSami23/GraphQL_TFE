@@ -13,20 +13,26 @@
         <e p="AppDbContext.cs" t="Include" />
       </e>
       <e p="GraphQL" t="Include">
-        <e p="Contracts" t="Include">
-          <e p="AddContractInput.cs" t="Include" />
-          <e p="AddContractPayload.cs" t="Include" />
+        <e p="Contracts" t="Include" />
+        <e p="Mutations" t="Include">
+          <e p="Contracts" t="Include">
+            <e p="ContractMutation.cs" t="Include" />
+            <e p="ContractPayload.cs" t="Include" />
+            <e p="ContractsInput.cs" t="Include" />
+          </e>
+          <e p="Properties" t="Include">
+            <e p="PropertyInput.cs" t="Include" />
+            <e p="PropertyMutation.cs" t="Include" />
+            <e p="PropertyPayload.cs" t="Include" />
+          </e>
+          <e p="Users" t="Include">
+            <e p="UserInput.cs" t="Include" />
+            <e p="UserMutation.cs" t="Include" />
+            <e p="UserPayload.cs" t="Include" />
+          </e>
         </e>
-        <e p="Mutations.cs" t="Include" />
-        <e p="Properties" t="Include">
-          <e p="AddPropertyInput.cs" t="Include" />
-          <e p="AddPropertyPayload.cs" t="Include" />
-        </e>
+        <e p="Properties" t="Include" />
         <e p="Queries.cs" t="Include" />
-        <e p="Users" t="Include">
-          <e p="AddUserInput.cs" t="Include" />
-          <e p="AddUserPayload.cs" t="Include" />
-        </e>
       </e>
       <e p="Migrations" t="Include">
         <e p="20210427202202_initialMigration.cs" t="Include" />

@@ -15,11 +15,14 @@ namespace TFE_Khalifa_Sami_2021.Models
         public Property Property { get; set; }
         [ForeignKey("IdUser")]
         public User User { get; set; }
-        
-        public DateTime BeginContract { get; set; }
-        public DateTime EndContract { get; set; }
-        
+
         public float GuaranteeAmount { get; set; }
-        public DateTime SignatureDate { get; set; }
+
+
+    #nullable enable
+
+        public DateTime? BeginContract { get; set; }
+        public DateTime? EndContract { get; set; }
+        public DateTime? SignatureDate { get; set; }
     }
 }

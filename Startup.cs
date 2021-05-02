@@ -1,4 +1,3 @@
-using System;
 using GraphQL.Server.Ui.Voyager;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -49,7 +48,7 @@ namespace TFE_Khalifa_Sami_2021
             services
                 .AddGraphQLServer()
                 .AddQueryType<Queries>()
-                .AddMutationType<Mutations>()
+                .AddMutationType<Mutation>()
                 .AddFiltering()
                 .AddSorting();
             

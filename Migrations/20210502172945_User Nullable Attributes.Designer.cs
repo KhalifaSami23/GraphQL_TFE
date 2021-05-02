@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using TFE_Khalifa_Sami_2021.DAL;
 
 namespace TFE_Khalifa_Sami_2021.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20210502172945_User Nullable Attributes")]
+    partial class UserNullableAttributes
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -66,10 +68,10 @@ namespace TFE_Khalifa_Sami_2021.Migrations
                     b.Property<string>("Description")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<float?>("FixedChargesCost")
+                    b.Property<float>("FixedChargesCost")
                         .HasColumnType("real");
 
-                    b.Property<int?>("IdOwner")
+                    b.Property<int>("IdOwner")
                         .HasColumnType("int");
 
                     b.Property<float>("RentCost")
@@ -141,7 +143,9 @@ namespace TFE_Khalifa_Sami_2021.Migrations
                 {
                     b.HasOne("TFE_Khalifa_Sami_2021.Models.User", "Owner")
                         .WithMany("PropertiesList")
-                        .HasForeignKey("IdOwner");
+                        .HasForeignKey("IdOwner")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("Owner");
                 });

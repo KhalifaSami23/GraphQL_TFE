@@ -26,122 +26,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="313a1742-72b7-40c4-858e-bd7ad645f5d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.TFE_Khalifa_Sami_2021/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vscode/tasks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/.idea/.idea.TFE_Khalifa_Sami_2021/.idea/contentModel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/.idea/.idea.TFE_Khalifa_Sami_2021/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GraphQL/Mutations/Contracts/ContractMutation.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GraphQL/Mutations/Contracts/ContractPayload.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GraphQL/Mutations/Contracts/ContractsInput.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GraphQL/Mutations/Properties/PropertyInput.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GraphQL/Mutations/Properties/PropertyPayload.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GraphQL/Mutations/Users/UserInput.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GraphQL/Mutations/Users/UserMutation.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GraphQL/Mutations/Users/UserPayload.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TFE_Khalifa_Sami_2021/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TFE_Khalifa_Sami_2021/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TFE_Khalifa_Sami_2021/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TFE_Khalifa_Sami_2021/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021.sln" beforeDir="false" afterPath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/DAL/AppDbContext.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/GraphQL/Query.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/Migrations/20210427202202_initialMigration.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/Migrations/20210427202202_initialMigration.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/Migrations/20210427215026_AddPropertiesList.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/Migrations/20210427215026_AddPropertiesList.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/Migrations/AppDbContextModelSnapshot.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/Models/Contract.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/Models/Property.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/Models/User.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/Properties/launchSettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/Startup.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/TFE_Khalifa_Sami_2021.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/appsettings.Development.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/appsettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/bin/Debug/net5.0/GraphQL.Server.Ui.Voyager.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/bin/Debug/net5.0/GreenDonut.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/bin/Debug/net5.0/HotChocolate.Abstractions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/bin/Debug/net5.0/HotChocolate.AspNetCore.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/bin/Debug/net5.0/HotChocolate.Data.EntityFramework.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/bin/Debug/net5.0/HotChocolate.Data.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/bin/Debug/net5.0/HotChocolate.Execution.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/bin/Debug/net5.0/HotChocolate.Fetching.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/bin/Debug/net5.0/HotChocolate.Language.SyntaxTree.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/bin/Debug/net5.0/HotChocolate.Language.Utf8.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/bin/Debug/net5.0/HotChocolate.Language.Visitors.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/bin/Debug/net5.0/HotChocolate.Language.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/bin/Debug/net5.0/HotChocolate.Subscriptions.InMemory.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/bin/Debug/net5.0/HotChocolate.Subscriptions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/bin/Debug/net5.0/HotChocolate.Types.CursorPagination.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/bin/Debug/net5.0/HotChocolate.Types.OffsetPagination.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/bin/Debug/net5.0/HotChocolate.Types.Scalars.Upload.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/bin/Debug/net5.0/HotChocolate.Types.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/bin/Debug/net5.0/HotChocolate.Utilities.Introspection.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/bin/Debug/net5.0/HotChocolate.Utilities.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/bin/Debug/net5.0/HotChocolate.Validation.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/bin/Debug/net5.0/HotChocolate.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/bin/Debug/net5.0/Humanizer.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/bin/Debug/net5.0/Microsoft.Bcl.AsyncInterfaces.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/bin/Debug/net5.0/Microsoft.Data.SqlClient.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Abstractions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Design.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Relational.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.SqlServer.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/bin/Debug/net5.0/Microsoft.Extensions.DependencyInjection.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/bin/Debug/net5.0/Microsoft.Extensions.DiagnosticAdapter.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/bin/Debug/net5.0/Microsoft.Identity.Client.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/bin/Debug/net5.0/Microsoft.IdentityModel.JsonWebTokens.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/bin/Debug/net5.0/Microsoft.IdentityModel.Logging.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/bin/Debug/net5.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/bin/Debug/net5.0/Microsoft.IdentityModel.Protocols.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/bin/Debug/net5.0/Microsoft.IdentityModel.Tokens.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/bin/Debug/net5.0/Newtonsoft.Json.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/bin/Debug/net5.0/System.Configuration.ConfigurationManager.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/bin/Debug/net5.0/System.Diagnostics.DiagnosticSource.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/bin/Debug/net5.0/System.IdentityModel.Tokens.Jwt.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/bin/Debug/net5.0/System.Runtime.Caching.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/bin/Debug/net5.0/System.Security.Cryptography.ProtectedData.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/bin/Debug/net5.0/TFE_Khalifa_Sami_2021.deps.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/bin/Debug/net5.0/TFE_Khalifa_Sami_2021.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/bin/Debug/net5.0/TFE_Khalifa_Sami_2021.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/bin/Debug/net5.0/TFE_Khalifa_Sami_2021.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/bin/Debug/net5.0/TFE_Khalifa_Sami_2021.runtimeconfig.dev.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/bin/Debug/net5.0/TFE_Khalifa_Sami_2021.runtimeconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/bin/Debug/net5.0/appsettings.Development.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/bin/Debug/net5.0/appsettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/bin/Debug/net5.0/ref/TFE_Khalifa_Sami_2021.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/bin/Debug/net5.0/runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/bin/Debug/net5.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/bin/Debug/net5.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/bin/Debug/net5.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/bin/Debug/net5.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/bin/Debug/net5.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/bin/Debug/net5.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/bin/Debug/net5.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/bin/Debug/net5.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/bin/Debug/net5.0/runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/bin/Debug/net5.0/runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/bin/Debug/net5.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/git" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/obj/Debug/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/obj/Debug/net5.0/TFE_Khalifa_Sami_2021.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/obj/Debug/net5.0/TFE_Khalifa_Sami_2021.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/obj/Debug/net5.0/TFE_Khalifa_Sami_2021.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/obj/Debug/net5.0/TFE_Khalifa_Sami_2021.MvcApplicationPartsAssemblyInfo.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/obj/Debug/net5.0/TFE_Khalifa_Sami_2021.RazorTargetAssemblyInfo.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/obj/Debug/net5.0/TFE_Khalifa_Sami_2021.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/obj/Debug/net5.0/TFE_Khalifa_Sami_2021.csproj.CopyComplete" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/obj/Debug/net5.0/TFE_Khalifa_Sami_2021.csproj.CoreCompileInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/obj/Debug/net5.0/TFE_Khalifa_Sami_2021.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/obj/Debug/net5.0/TFE_Khalifa_Sami_2021.csprojAssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/obj/Debug/net5.0/TFE_Khalifa_Sami_2021.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/obj/Debug/net5.0/TFE_Khalifa_Sami_2021.genruntimeconfig.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/obj/Debug/net5.0/TFE_Khalifa_Sami_2021.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/obj/Debug/net5.0/apphost.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/obj/Debug/net5.0/ref/TFE_Khalifa_Sami_2021.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/obj/Debug/net5.0/staticwebassets/TFE_Khalifa_Sami_2021.StaticWebAssets.Manifest.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/obj/Debug/net5.0/staticwebassets/TFE_Khalifa_Sami_2021.StaticWebAssets.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/obj/TFE_Khalifa_Sami_2021.csproj.EntityFrameworkCore.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/obj/TFE_Khalifa_Sami_2021.csproj.nuget.dgspec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/obj/TFE_Khalifa_Sami_2021.csproj.nuget.g.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/obj/TFE_Khalifa_Sami_2021.csproj.nuget.g.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/obj/project.assets.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/obj/project.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/obj/project.packagespec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/obj/rider.project.restore.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GraphQL/Contracts/AddContractInput.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GraphQL/Contracts/AddContractPayload.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GraphQL/Mutations.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GraphQL/Mutations/Properties/PropertyMutation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GraphQL/Properties/AddPropertyInput.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GraphQL/Properties/AddPropertyPayload.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GraphQL/Queries.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GraphQL/Queries.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GraphQL/Users/AddUserInput.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GraphQL/Users/AddUserPayload.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/TFE_Khalifa_Sami_2021.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/TFE_Khalifa_Sami_2021.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/TFE_Khalifa_Sami_2021.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/TFE_Khalifa_Sami_2021.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/TFE_Khalifa_Sami_2021.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/TFE_Khalifa_Sami_2021.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/ref/TFE_Khalifa_Sami_2021.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/ref/TFE_Khalifa_Sami_2021.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/TFE_Khalifa_Sami_2021.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/TFE_Khalifa_Sami_2021.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/TFE_Khalifa_Sami_2021.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/TFE_Khalifa_Sami_2021.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/TFE_Khalifa_Sami_2021.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/TFE_Khalifa_Sami_2021.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/TFE_Khalifa_Sami_2021.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/TFE_Khalifa_Sami_2021.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/TFE_Khalifa_Sami_2021.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/TFE_Khalifa_Sami_2021.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/TFE_Khalifa_Sami_2021.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/TFE_Khalifa_Sami_2021.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/TFE_Khalifa_Sami_2021.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/TFE_Khalifa_Sami_2021.genruntimeconfig.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/TFE_Khalifa_Sami_2021.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/TFE_Khalifa_Sami_2021.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/ref/TFE_Khalifa_Sami_2021.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/ref/TFE_Khalifa_Sami_2021.dll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,6 +94,13 @@
         <option value="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/GraphQL/Users/AddClientInput.cs" />
         <option value="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/GraphQL/Users/AddClientPayload.cs" />
         <option value="$PROJECT_DIR$/TFE_Khalifa_Sami_2021/GraphQL/Mutations.cs" />
+        <option value="$PROJECT_DIR$/GraphQL/Properties/AddPropertyPayload.cs" />
+        <option value="$PROJECT_DIR$/GraphQL/Mutations/Properties/Mutations.cs" />
+        <option value="$PROJECT_DIR$/GraphQL/Mutations/Properties/PropertyMutations.cs" />
+        <option value="$PROJECT_DIR$/GraphQL/Mutations/Users/UserMutation.cs" />
+        <option value="$PROJECT_DIR$/GraphQL/Mutations/Contracts/ContractPayload.cs" />
+        <option value="$PROJECT_DIR$/GraphQL/Mutations/Properties/PropertyMutation.cs" />
+        <option value="$PROJECT_DIR$/Startup.cs" />
       </list>
     </option>
   </component>
@@ -246,6 +170,8 @@
       <workItem from="1619548780404" duration="10438000" />
       <workItem from="1619565283281" duration="5537000" />
       <workItem from="1619827400989" duration="54000" />
+      <workItem from="1619964630762" duration="217000" />
+      <workItem from="1619966353980" duration="543000" />
     </task>
     <servers />
   </component>
