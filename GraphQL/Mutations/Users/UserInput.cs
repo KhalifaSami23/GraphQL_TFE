@@ -1,6 +1,6 @@
 ﻿using TFE_Khalifa_Sami_2021.Models;
 
-namespace TFE_Khalifa_Sami_2021.GraphQL.Users
+namespace TFE_Khalifa_Sami_2021.GraphQL.Mutations.Users
 {
     public class UserInput
     {

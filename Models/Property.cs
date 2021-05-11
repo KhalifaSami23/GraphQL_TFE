@@ -12,9 +12,6 @@ namespace TFE_Khalifa_Sami_2021.Models
         public string Address { get; set; }
 
     #nullable enable
-        public int? IdOwner { get; set; }
-        [ForeignKey("IdOwner")]
-        public User? Owner { get; set; }
         public float? RentCost { get; set; }
         public float? FixedChargesCost { get; set; }
     }

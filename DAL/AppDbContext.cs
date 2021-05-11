@@ -14,17 +14,7 @@ namespace TFE_Khalifa_Sami_2021.DAL
                 .HasOne(c => c.User)
                 .WithMany()
                 .OnDelete(DeleteBehavior.NoAction);
-            
-            modelBuilder.Entity<User>()
-                .HasMany(p => p.PropertiesList)
-                .WithOne(p => p.Owner!)
-                .HasForeignKey(p => p.IdOwner);
-            
-            modelBuilder.Entity<Property>()
-                .HasOne(p => p.Owner)
-                .WithMany(p => p.PropertiesList!)
-                .HasForeignKey(p => p.IdOwner);
-            
+
         }
 
         public DbSet<Property> CommandProperty {get; set;}

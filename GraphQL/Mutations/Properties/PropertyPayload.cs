@@ -1,6 +1,6 @@
 using TFE_Khalifa_Sami_2021.Models;
 
-namespace TFE_Khalifa_Sami_2021.GraphQL.Properties
+namespace TFE_Khalifa_Sami_2021.GraphQL.Mutations.Properties
 {
     public class PropertyPayload
     {

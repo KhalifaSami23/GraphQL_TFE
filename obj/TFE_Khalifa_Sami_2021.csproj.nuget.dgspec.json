@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Saaam\\Documents\\Vs Project\\TFE_Khalifa_Sami_2021\\TFE_Khalifa_Sami_2021.csproj": {}
+    "C:\\Users\\Saaam\\Documents\\Vs_Project\\TFE_Khalifa_Sami_2021\\TFE_Khalifa_Sami_2021.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Saaam\\Documents\\Vs Project\\TFE_Khalifa_Sami_2021\\TFE_Khalifa_Sami_2021.csproj": {
+    "C:\\Users\\Saaam\\Documents\\Vs_Project\\TFE_Khalifa_Sami_2021\\TFE_Khalifa_Sami_2021.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Saaam\\Documents\\Vs Project\\TFE_Khalifa_Sami_2021\\TFE_Khalifa_Sami_2021.csproj",
+        "projectUniqueName": "C:\\Users\\Saaam\\Documents\\Vs_Project\\TFE_Khalifa_Sami_2021\\TFE_Khalifa_Sami_2021.csproj",
         "projectName": "TFE_Khalifa_Sami_2021",
-        "projectPath": "C:\\Users\\Saaam\\Documents\\Vs Project\\TFE_Khalifa_Sami_2021\\TFE_Khalifa_Sami_2021.csproj",
+        "projectPath": "C:\\Users\\Saaam\\Documents\\Vs_Project\\TFE_Khalifa_Sami_2021\\TFE_Khalifa_Sami_2021.csproj",
         "packagesPath": "C:\\Users\\Saaam\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Saaam\\Documents\\Vs Project\\TFE_Khalifa_Sami_2021\\obj\\",
+        "outputPath": "C:\\Users\\Saaam\\Documents\\Vs_Project\\TFE_Khalifa_Sami_2021\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Saaam\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -61,6 +61,10 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[5.0.5, )"
+            },
+            "Microsoft.Office.Interop.Word": {
+              "target": "Package",
+              "version": "[15.0.4420.1017, )"
             }
           },
           "imports": [

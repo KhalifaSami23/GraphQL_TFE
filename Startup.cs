@@ -13,16 +13,21 @@ namespace TFE_Khalifa_Sami_2021
 {
     public class Startup
     {
+        private const string MyAllowSpecificOrigins = "Access-Control-Allow-Origin";
+        public IConfiguration Configuration { get; }
+
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
         }
-        private const string MyAllowSpecificOrigins = "Access-Control-Allow-Origin";
-        public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddPooledDbContextFactory<AppDbContext>(opt =>
+                opt.UseSqlServer(Configuration.GetConnectionString("myDataBaseConnection"))
+            );
+            
             /*
              services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
              
@@ -49,12 +54,12 @@ namespace TFE_Khalifa_Sami_2021
                 .AddGraphQLServer()
                 .AddQueryType<Queries>()
                 .AddMutationType<Mutation>()
+                .AddSubscriptionType<Subscription>()
                 .AddFiltering()
-                .AddSorting();
+                .AddSorting()
+                .AddInMemorySubscriptions();
             
-            services.AddPooledDbContextFactory<AppDbContext>(opt =>
-                opt.UseSqlServer(Configuration.GetConnectionString("myDataBaseConnection"))
-            );
+            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -69,6 +74,7 @@ namespace TFE_Khalifa_Sami_2021
 
             app.UseHttpsRedirection();
             app.UseRouting();
+            app.UseWebSockets();
             // app.UseCors(MyAllowSpecificOrigins);
             // app.UseAuthorization();
 
