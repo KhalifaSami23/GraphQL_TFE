@@ -17,5 +17,6 @@ namespace TFE_Khalifa_Sami_2021.GraphQL
         [Subscribe]
         [Topic]
         public Contract onContractAdded([EventMessage] Contract contract) => contract;
+        
     }
 }

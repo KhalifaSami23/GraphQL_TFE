@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+using System.Threading.Tasks;
 using Backend_RentHouse_Khalifa_Sami.Model.Documents;
 using HotChocolate;
 using HotChocolate.Data;
@@ -36,15 +37,18 @@ namespace TFE_Khalifa_Sami_2021.GraphQL
         }
         
         [UseDbContext(typeof(AppDbContext))]
-        [GraphQLDescription("Gets All Contracts.")]
+        [UseSorting]
+        [UseFiltering]
+        [GraphQLDescription("Gets All Contracts with filtering/sorting.")]
         public IQueryable<Contract> GetContracts([ScopedService] AppDbContext context)
         {
             return context.CommandContract
             .Include(p => p.User)
             .Include(p => p.Property);
         }
-        
+
         [UseDbContext(typeof(AppDbContext))]
+        [UseFiltering]
         [GraphQLDescription("Gets One Doc from Contract.")]
         public string GetDoc([ScopedService] AppDbContext context, int id, string type)
         {

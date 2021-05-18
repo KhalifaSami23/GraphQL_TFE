@@ -7,6 +7,7 @@
     </PropertyGroup>
 
     <ItemGroup>
+        <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
         <PackageReference Include="GraphQL.Server.Ui.Voyager" Version="5.0.2" />
         <PackageReference Include="HotChocolate.AspNetCore" Version="12.0.0-preview.2" />
         <PackageReference Include="HotChocolate.Data.EntityFramework" Version="12.0.0-preview.2" />
@@ -15,6 +16,7 @@
           <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
         </PackageReference>
         <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.5" />
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0-preview.3.21201.4" />
         <PackageReference Include="Microsoft.Office.Interop.Word" Version="15.0.4420.1017" />
 <!--        <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />-->
     </ItemGroup>
@@ -24,10 +26,5 @@
             <EmbedInteropTypes>true</EmbedInteropTypes>
         </Reference>
     </ItemGroup>-->
-
-    <ItemGroup>
-      <Folder Include="GraphQL\Contracts" />
-      <Folder Include="GraphQL\Properties" />
-    </ItemGroup>
 
 </Project>

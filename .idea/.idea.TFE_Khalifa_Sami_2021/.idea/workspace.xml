@@ -26,44 +26,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="313a1742-72b7-40c4-858e-bd7ad645f5d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DocumentsWord/Templates/TEMPLATE_BAIL.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DocumentsWord/Templates/TEMPLATE_CONGE_BAIL.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DocumentsWord/Templates/TEMPLATE_GARANT.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DocumentsWord/Templates/TEMPLATE_RESILIATION_ANTICIPE.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DocumentsWord/Templates/Templates.7z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/Documents/Document.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/Documents/TypeContract.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021.sln.DotSettings.user" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net5.0/Microsoft.Office.Interop.Word.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TFE_Khalifa_Sami_2021/.idea/contentModel.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TFE_Khalifa_Sami_2021/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TFE_Khalifa_Sami_2021/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TFE_Khalifa_Sami_2021/.idea/modules.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Migrations/20210515192914_updateDBFinal.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Migrations/20210515192914_updateDBFinal.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/REST/Controllers/ContractController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/REST/Controllers/PropertyController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/REST/Controllers/UserController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/REST/DTO/ContractDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/REST/DTO/Profiles.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/REST/DTO/PropertyDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/REST/DTO/UserDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/REST/Repositories/ContractRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/REST/Repositories/PropertyRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/REST/Repositories/UserRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net5.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TFE_Khalifa_Sami_2021/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TFE_Khalifa_Sami_2021/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TFE_Khalifa_Sami_2021/riderModule.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAL/AppDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL/AppDbContext.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GraphQL/Mutation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GraphQL/Mutation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GraphQL/Mutations/Contracts/ContractPayload.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GraphQL/Mutations/Contracts/ContractPayload.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GraphQL/Mutations/Contracts/ContractsInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GraphQL/Mutations/Contracts/ContractsInput.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GraphQL/Mutations/Properties/PropertyInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GraphQL/Mutations/Properties/PropertyInput.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GraphQL/Mutations/Properties/PropertyPayload.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GraphQL/Mutations/Properties/PropertyPayload.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GraphQL/Mutations/Users/UserInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GraphQL/Mutations/Users/UserInput.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GraphQL/Mutations/Users/UserPayload.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GraphQL/Mutations/Users/UserPayload.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GraphQL/Queries.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GraphQL/Queries.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/Property.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Property.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GraphQL/Subscription.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GraphQL/Subscription.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/AppDbContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Migrations/AppDbContextModelSnapshot.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Startup.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TFE_Khalifa_Sami_2021.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/Microsoft.Extensions.DependencyInjection.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/Microsoft.Extensions.DependencyInjection.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/Microsoft.Office.Interop.Word.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/Microsoft.Office.Interop.Word.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/TFE_Khalifa_Sami_2021.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/TFE_Khalifa_Sami_2021.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/TFE_Khalifa_Sami_2021.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/TFE_Khalifa_Sami_2021.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/TFE_Khalifa_Sami_2021.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/TFE_Khalifa_Sami_2021.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/ref/TFE_Khalifa_Sami_2021.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/ref/TFE_Khalifa_Sami_2021.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/TFE_Khalifa_Sami_2021.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/TFE_Khalifa_Sami_2021.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/TFE_Khalifa_Sami_2021.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/TFE_Khalifa_Sami_2021.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/TFE_Khalifa_Sami_2021.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/TFE_Khalifa_Sami_2021.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/TFE_Khalifa_Sami_2021.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/TFE_Khalifa_Sami_2021.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/TFE_Khalifa_Sami_2021.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/TFE_Khalifa_Sami_2021.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/TFE_Khalifa_Sami_2021.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/TFE_Khalifa_Sami_2021.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/TFE_Khalifa_Sami_2021.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/TFE_Khalifa_Sami_2021.genruntimeconfig.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/TFE_Khalifa_Sami_2021.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/TFE_Khalifa_Sami_2021.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/project.razor.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/project.razor.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/ref/TFE_Khalifa_Sami_2021.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/ref/TFE_Khalifa_Sami_2021.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/TFE_Khalifa_Sami_2021.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/TFE_Khalifa_Sami_2021.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/TFE_Khalifa_Sami_2021.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/TFE_Khalifa_Sami_2021.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.packagespec.json" afterDir="false" />
@@ -79,26 +83,68 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/63BC4785-9766-42B0-9664-0769050EE240/ee/4935b368/IQueryable`1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1F559AF3-D626-4780-A133-606637554810/C3/FieldMiddlewareCompiler.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Models/Property.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Startup.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/GraphQL/Subscription.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GraphQL/Subscription.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/GraphQL/Mutations/Users/UserInput.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/60B4CAED-9553-4D9E-9BBA-8E623D3661FF/185/EntityTypeBuilder`.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Models/Contract.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/Contract.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Models/Documents/Document.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/GraphQL/Mutation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/GraphQL/Queries.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9C7966FA-698D-4BE8-8DB4-FF6F146C8561/b8/89c29796/IQueryable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/AE604AFE-B657-4617-A94D-F2A743C6288E/F/Mapper.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/B8EF69D3-A481-43FE-8568-E981A8FFA98B/1AB/CancellationToken.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/60B4CAED-9553-4D9E-9BBA-8E623D3661FF/1DB/InternalDbSet.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/C7350B9F-2E1A-420A-99DD-95685F632F5A/1/EntityFrameworkObjectFieldDescriptorExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/60B4CAED-9553-4D9E-9BBA-8E623D3661FF/14/DbSet.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1F559AF3-D626-4780-A133-606637554810/93/TopicAttribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/60B4CAED-9553-4D9E-9BBA-8E623D3661FF/C/DbContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3AF4A867-99E6-48CE-9223-DE32448B0B30/1F/Directory.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/60B4CAED-9553-4D9E-9BBA-8E623D3661FF/23/EntityFrameworkQueryableExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1F559AF3-D626-4780-A133-606637554810/92/SubscribeAttribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3197D3C5-755D-48B7-81A5-707D125A067B/38/ControllerBase.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0FCBC247-A161-4F2B-996F-3CF977673F41/56/d815e096/_Document.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3197D3C5-755D-48B7-81A5-707D125A067B/5/ObjectMethodExecutor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1F559AF3-D626-4780-A133-606637554810/C3/FieldMiddlewareCompiler.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0BD2CC85-FA1F-49EE-B870-CFF8AB1A9BE7/73/0b65d189/ITopicEventSender.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3197D3C5-755D-48B7-81A5-707D125A067B/10F/ActionMethodExecutor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/Property.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3197D3C5-755D-48B7-81A5-707D125A067B/11A/ControllerActionInvoker.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/D444921F-3AC5-4C8B-94A7-CC100E64B437/E/Controller.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/985EC2FF-3EDE-442E-8B9B-BC8C1A6D35A8/5C/ScopedServiceAttribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/60B4CAED-9553-4D9E-9BBA-8E623D3661FF/185/EntityTypeBuilder`.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3197D3C5-755D-48B7-81A5-707D125A067B/154/ControllerActionFilter.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/985EC2FF-3EDE-442E-8B9B-BC8C1A6D35A8/5D/ServiceAttribute.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/GraphQL/Queries.cs" />
       <option value="$PROJECT_DIR$/DAL/AppDbContext.cs" />
+      <option value="$PROJECT_DIR$/Controllers/UserController.cs" />
+      <option value="$PROJECT_DIR$/Controllers/PropertyController.cs" />
+      <option value="$PROJECT_DIR$/GraphQL/Mutations/Users/UserInput.cs" />
+      <option value="$PROJECT_DIR$/GraphQL/Mutations/Users/UserPayload.cs" />
+      <option value="$PROJECT_DIR$/GraphQL/Mutations/Properties/PropertyPayload.cs" />
+      <option value="$PROJECT_DIR$/GraphQL/Mutations/Properties/PropertyInput.cs" />
+      <option value="$PROJECT_DIR$/GraphQL/Mutations/Contracts/ContractPayload.cs" />
+      <option value="$PROJECT_DIR$/GraphQL/Mutations/Contracts/ContractsInput.cs" />
+      <option value="$PROJECT_DIR$/GraphQL/Queries.cs" />
+      <option value="$PROJECT_DIR$/GraphQL/Subscription.cs" />
+      <option value="$PROJECT_DIR$/Controllers/ContractController.cs" />
+      <option value="$PROJECT_DIR$/REST/Repositories/UserRepositories.cs" />
+      <option value="$PROJECT_DIR$/REST/Repositories/PropertyRepository.cs" />
+      <option value="$PROJECT_DIR$/REST/DTO/ContratDTO.cs" />
+      <option value="$PROJECT_DIR$/REST/DTO/ContratDto.cs" />
+      <option value="$PROJECT_DIR$/REST/DTO/PropertyDto.cs" />
+      <option value="$PROJECT_DIR$/REST/DTO/UserDto.cs" />
+      <option value="$PROJECT_DIR$/REST/DTO/Profile.cs" />
+      <option value="$PROJECT_DIR$/REST/DTO/Profiles.cs" />
+      <option value="$PROJECT_DIR$/REST/Repositories/UserRepository.cs" />
+      <option value="$PROJECT_DIR$/REST/Repositories/ContractRepository.cs" />
+      <option value="$PROJECT_DIR$/REST/DTO/ContractDto.cs" />
+      <option value="$PROJECT_DIR$/REST/Controllers/ContractController.cs" />
+      <option value="$PROJECT_DIR$/REST/Controllers/PropertyController.cs" />
+      <option value="$PROJECT_DIR$/REST/Controllers/UserController.cs" />
       <option value="$PROJECT_DIR$/GraphQL/Mutation.cs" />
+      <option value="$PROJECT_DIR$/Startup.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1rlRcT0j4YnB8x4T27hMkYdDF6F" />
@@ -111,8 +157,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.30720508" />
-    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.30007917" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.30743802" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="XThreadsFramesViewSplitterKey" value="0.5271318" />
@@ -180,7 +226,9 @@
       <workItem from="1620498085424" duration="3333000" />
       <workItem from="1620647870729" duration="13062000" />
       <workItem from="1620734450256" duration="233000" />
-      <workItem from="1620735614691" duration="1997000" />
+      <workItem from="1620735614691" duration="3255000" />
+      <workItem from="1620994604799" duration="45586000" />
+      <workItem from="1621327937839" duration="462000" />
     </task>
     <servers />
   </component>
@@ -209,27 +257,14 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Models/Documents/Document.cs</url>
-          <line>50</line>
-          <properties documentPath="C:\Users\Saaam\Documents\Vs_Project\TFE_Khalifa_Sami_2021\Models\Documents\Document.cs" initialLine="50">
-            <startOffsets>
-              <option value="1523" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1554" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/GraphQL/Queries.cs</url>
-          <line>63</line>
+          <line>67</line>
           <properties documentPath="C:\Users\Saaam\Documents\Vs_Project\TFE_Khalifa_Sami_2021\GraphQL\Queries.cs" initialLine="63">
             <startOffsets>
-              <option value="2133" />
+              <option value="2245" />
             </startOffsets>
             <endOffsets>
-              <option value="2149" />
+              <option value="2261" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="9" />

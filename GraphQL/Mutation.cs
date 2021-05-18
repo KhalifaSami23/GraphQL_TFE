@@ -38,9 +38,9 @@ namespace TFE_Khalifa_Sami_2021.GraphQL
         {
             User user = new User
             {
-                Name = input.name,
+                Name = input.Name,
                 Surname = "Castafiore",
-                Address = input.address,
+                Address = input.Address,
                 DateOfBirth = DateTime.Now
             };
             await context.CommandUser.AddAsync(user, cancellationToken);
@@ -54,7 +54,7 @@ namespace TFE_Khalifa_Sami_2021.GraphQL
             UpdateUserInput input,
             [ScopedService] AppDbContext context)
         {
-            User user = input.user;
+            User user = input.User;
             user.DateOfBirth = user.DateOfBirth ?? DateTime.Now;
             user.Surname = user.Surname ?? "Jamilo";
 
@@ -68,10 +68,10 @@ namespace TFE_Khalifa_Sami_2021.GraphQL
             DeleteUserInput input,
             [ScopedService] AppDbContext context)
         {
-            User user = context.CommandUser.FirstOrDefault(p => p.IdUser == input.id);
+            User user = context.CommandUser.FirstOrDefault(p => p.IdUser == input.Id);
             context.CommandUser.Remove(user);
             await context.SaveChangesAsync();
-            return new DeleteUserPayload($"Record with id : '{input.id}' Removed !", user);
+            return new DeleteUserPayload($"Record with id : '{input.Id}' Removed !", user);
         }
 
         /*
@@ -88,9 +88,9 @@ namespace TFE_Khalifa_Sami_2021.GraphQL
         {
             Property property = new Property
             {
-                Description = input.description,
-                Address = input.address,
-                RentCost = input.rentCost,
+                Description = input.Description,
+                Address = input.Address,
+                RentCost = input.RentCost,
                 FixedChargesCost = 456
             };
             await context.CommandProperty.AddAsync(property, cancellationToken);
@@ -104,10 +104,10 @@ namespace TFE_Khalifa_Sami_2021.GraphQL
             UpdatePropertyInput input,
             [ScopedService] AppDbContext context)
         {
-            Property property = context.CommandProperty.FirstOrDefault(p => p.IdProperty == input.idProperty);
-            property.Address = input.address ?? property.Address;
-            property.Description = input.description ?? property.Description;
-            property.RentCost = input.rentCost ?? property.RentCost;
+            Property property = context.CommandProperty.FirstOrDefault(p => p.IdProperty == input.IdProperty);
+            property.Address = input.Address ?? property.Address;
+            property.Description = input.Description ?? property.Description;
+            property.RentCost = input.RentCost ?? property.RentCost;
 
             context.CommandProperty.Update(property);
             await context.SaveChangesAsync();
@@ -119,10 +119,10 @@ namespace TFE_Khalifa_Sami_2021.GraphQL
             DeletePropertyInput input,
             [ScopedService] AppDbContext context)
         {
-            Property property = context.CommandProperty.FirstOrDefault(p => p.IdProperty == input.id);
+            Property property = context.CommandProperty.FirstOrDefault(p => p.IdProperty == input.Id);
             context.CommandProperty.Remove(property);
             await context.SaveChangesAsync();
-            return new DeletePropertyPayload($"Record with id : '{input.id}' Removed !", property);
+            return new DeletePropertyPayload($"Record with id : '{input.Id}' Removed !", property);
         }
 
         /*
@@ -139,8 +139,8 @@ namespace TFE_Khalifa_Sami_2021.GraphQL
         {
             Contract contract = new Contract
             {
-                IdProperty = input.idProp,
-                IdUser = input.idUser,
+                IdProperty = input.IdProp,
+                IdUser = input.IdUser,
                 GuaranteeAmount = input.GuaranteeAmount,
                 BeginContract = DateTime.Now,
                 SignatureDate = DateTime.Now,
@@ -157,10 +157,10 @@ namespace TFE_Khalifa_Sami_2021.GraphQL
             UpdateContractInput input,
             [ScopedService] AppDbContext context)
         {
-            Contract contract = context.CommandContract.FirstOrDefault(p => p.IdContract == input.idContract);
-                contract.GuaranteeAmount = input.guaranteeAmount;
-                contract.IdProperty = input?.idProperty ?? contract.IdProperty;
-                contract.IdUser = input?.idUser ?? contract.IdUser;
+            Contract contract = context.CommandContract.FirstOrDefault(p => p.IdContract == input.IdContract);
+                contract.GuaranteeAmount = input.GuaranteeAmount;
+                contract.IdProperty = input?.IdProperty ?? contract.IdProperty;
+                contract.IdUser = input?.IdUser ?? contract.IdUser;
 
             context.CommandContract.Update(contract);
             await context.SaveChangesAsync();
@@ -172,10 +172,10 @@ namespace TFE_Khalifa_Sami_2021.GraphQL
             DeleteContractInput input,
             [ScopedService] AppDbContext context)
         {
-            Contract contract = context.CommandContract.FirstOrDefault(p => p.IdContract == input.id);
+            Contract contract = context.CommandContract.FirstOrDefault(p => p.IdContract == input.Id);
             context.CommandContract.Remove(contract);
             await context.SaveChangesAsync();
-            return new DeleteContractPayload($"Record with id : '{input.id}' Removed !", contract);
+            return new DeleteContractPayload($"Record with id : '{input.Id}' Removed !", contract);
         }
 
     }

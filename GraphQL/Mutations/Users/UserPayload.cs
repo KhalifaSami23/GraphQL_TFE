@@ -4,9 +4,9 @@ namespace TFE_Khalifa_Sami_2021.GraphQL.Mutations.Users
 {
     public class UserPayload
     {
-        public record AddUserPayload(User user);
-        public record UpdateUserPayload(User user);
-        public record DeleteUserPayload(string message, User user);
+        public record AddUserPayload(User User);
+        public record UpdateUserPayload(User User);
+        public record DeleteUserPayload(string Message, User User);
         
     }
     

@@ -4,9 +4,9 @@ namespace TFE_Khalifa_Sami_2021.GraphQL.Mutations.Users
 {
     public class UserInput
     {
-        public record AddUserInput(string name, string address);
-        public record UpdateUserInput(User user);
-        public record DeleteUserInput(int id);
+        public record AddUserInput(string Name, string Address);
+        public record UpdateUserInput(User User);
+        public record DeleteUserInput(int Id);
 
     }
 

@@ -4,9 +4,9 @@ namespace TFE_Khalifa_Sami_2021.GraphQL.Mutations.Properties
 {
     public class PropertyPayload
     {
-        public record AddPropertyPayload(Property property);
-        public record UpdatePropertyPayload(Property property);
-        public record DeletePropertyPayload(string message, Property property);
+        public record AddPropertyPayload(Property Property);
+        public record UpdatePropertyPayload(Property Property);
+        public record DeletePropertyPayload(string Message, Property Property);
 
     }
     

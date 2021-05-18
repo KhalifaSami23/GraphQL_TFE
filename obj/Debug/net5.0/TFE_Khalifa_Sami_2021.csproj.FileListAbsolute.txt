@@ -205,6 +205,7 @@ C:\Users\Saaam\Documents\Vs_Project\TFE_Khalifa_Sami_2021\bin\Debug\net5.0\Micro
 C:\Users\Saaam\Documents\Vs_Project\TFE_Khalifa_Sami_2021\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
 C:\Users\Saaam\Documents\Vs_Project\TFE_Khalifa_Sami_2021\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\Saaam\Documents\Vs_Project\TFE_Khalifa_Sami_2021\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Saaam\Documents\Vs_Project\TFE_Khalifa_Sami_2021\bin\Debug\net5.0\Microsoft.Office.Interop.Word.dll
 C:\Users\Saaam\Documents\Vs_Project\TFE_Khalifa_Sami_2021\bin\Debug\net5.0\Newtonsoft.Json.dll
 C:\Users\Saaam\Documents\Vs_Project\TFE_Khalifa_Sami_2021\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
 C:\Users\Saaam\Documents\Vs_Project\TFE_Khalifa_Sami_2021\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
@@ -238,4 +239,6 @@ C:\Users\Saaam\Documents\Vs_Project\TFE_Khalifa_Sami_2021\obj\Debug\net5.0\TFE_K
 C:\Users\Saaam\Documents\Vs_Project\TFE_Khalifa_Sami_2021\obj\Debug\net5.0\ref\TFE_Khalifa_Sami_2021.dll
 C:\Users\Saaam\Documents\Vs_Project\TFE_Khalifa_Sami_2021\obj\Debug\net5.0\TFE_Khalifa_Sami_2021.pdb
 C:\Users\Saaam\Documents\Vs_Project\TFE_Khalifa_Sami_2021\obj\Debug\net5.0\TFE_Khalifa_Sami_2021.genruntimeconfig.cache
-C:\Users\Saaam\Documents\Vs_Project\TFE_Khalifa_Sami_2021\bin\Debug\net5.0\Microsoft.Office.Interop.Word.dll
+C:\Users\Saaam\Documents\Vs_Project\TFE_Khalifa_Sami_2021\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Saaam\Documents\Vs_Project\TFE_Khalifa_Sami_2021\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\Saaam\Documents\Vs_Project\TFE_Khalifa_Sami_2021\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
